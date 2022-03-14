@@ -1,0 +1,59 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8" /><title>Login - Qiita Team</title><meta content="width=device-width,initial-scale=1" name="viewport" /><link rel="shortcut icon" type="image/x-icon" href="https://cdn.qiita.com/assets/favicons/team/production-ea497381ce9c9085a850ea45317d591a.ico" /><link rel="apple-touch-icon" type="image/png" href="https://cdn.qiita.com/assets/favicons/team/apple-touch-icon-a4e9da1df25a27de9b1eb654d9fa3f5b.png" /><link rel="stylesheet" media="all" href="https://cdn.qiita.com/assets/teams-e94a6b34ee3335370430c5b8977db49b.min.css" /><meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="0DoSEGha/iMlmXdU0KftjwFxjTiTMo8XaOk/s8fc3nSwfmO9VesGGba1xGFhOZQ53OKwT0dlRxHcCHuszh1Hlw==" /></head><body class="teamBase without-js  "><script>
+  document.body.className = document.body.className.replace('without-js', '') + ' with-js';
+  window.Qiita = {"asset_host":"cdn.qiita.com","action_path":"shared/sessions#login","flash":{},"config":{"default_locale":"en","locale":"en"},"user":null,"GIT_BRANCH":null};
+
+</script>
+<script>Qiita.TeamTemplates = {
+    // Registered functions.
+    _map: {},
+    // Queued selectors.
+    _queues: {},
+    // Whether the name has already been registered or not.
+    isRegistered: function (name) {
+        return name in this._map;
+    },
+    // Register the function as the name.
+    register: function (name, func) {
+        this._map[name] = func;
+    },
+    // Push the selector to a queue to render when corresponding
+    // template is registered.
+    render: function (name, selector) {
+        this._queues[name] || (this._queues[name] = []);
+        this._queues[name].push(selector);
+    }
+}</script><div class="headerContainer headerContainer-team" role="navigation"><script type="application/json" id="js-react-on-rails-context">{"railsEnv":"production","inMailer":false,"i18nLocale":"en","i18nDefaultLocale":"en","href":"https://kaizen.qiita.com/login?redirect_to=https%3A%2F%2Fkaizen.qiita.com%2Ffiles%2Fa592ad21-d0da-dc59-74b6-81bb90db9649.png","location":"/login?redirect_to=https%3A%2F%2Fkaizen.qiita.com%2Ffiles%2Fa592ad21-d0da-dc59-74b6-81bb90db9649.png","scheme":"https","host":"kaizen.qiita.com","port":null,"pathname":"/login","search":"redirect_to=https%3A%2F%2Fkaizen.qiita.com%2Ffiles%2Fa592ad21-d0da-dc59-74b6-81bb90db9649.png","httpAcceptLanguage":"en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7","serverSide":false}</script>
+<div id="HeaderContainer-react-component-718d8341-578a-4998-b2c8-6be713bff8be"></div>
+      <script type="application/json" class="js-react-on-rails-component" data-component-name="HeaderContainer" data-dom-id="HeaderContainer-react-component-718d8341-578a-4998-b2c8-6be713bff8be">{"user":null,"team":null,"realms":[{"human_name":"Qiita","is_current_realm":false,"is_qiita":true,"is_qiita_team":false,"logged_in_user":null,"team_id":null,"url":"https://qiita.com/"}],"team_logo_url":"/","team_find_url":"https://teams-center.qiita.com/find_team","initial_unread_count":0,"news":null,"show_post_menu":false,"show_search_menu":false,"is_fluid":false,"locale":"en","show_latest_user_article_button":false,"show_latest_team_article_button":false,"edit_exclude_tags_url":"/settings/exclude_search_tags"}</script>
+      
+</div><div class="teamMain"><div class="teamMain_inner"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1"><div class="sessionsLayoutHeader"><div class="sessionsLayoutHeader_title text-center">Log in to the Team</div></div><hr /><div class="row"><div class="col-sm-6"><form class="btn btn-github-inverse btn-block btn-lg" method="post" action="https://oauth.qiita.com/auth/github?callback_action=login_or_signup&amp;realm=216&amp;redirect_to=https%3A%2F%2Fkaizen.qiita.com%2Ffiles%2Fa592ad21-d0da-dc59-74b6-81bb90db9649.png"><button type="submit"><i class="fa fa-github"></i>Log in with GitHub</button><input type="hidden" name="authenticity_token" value="2JeUCPpSm7rN2URAqh/FHZCuLExcIOVPvxbj269w44SAvQrXGBG9JsQtWu8EmuGb4Xvnlfvu4xa1r04U/a8q+w==" /></form><form class="btn btn-twitter-inverse btn-block btn-lg" method="post" action="https://oauth.qiita.com/auth/twitter?callback_action=login_or_signup&amp;realm=216&amp;redirect_to=https%3A%2F%2Fkaizen.qiita.com%2Ffiles%2Fa592ad21-d0da-dc59-74b6-81bb90db9649.png"><button type="submit"><i class="fa fa-twitter"></i>Log in with Twitter</button><input type="hidden" name="authenticity_token" value="67VMaKmoheh6H7fGAQLRIsEiD8uSmb4upK1496Kt/EJt4gZ4NqL0VvBxL7RMMXk5AXtJdA1fAgi6iJbKWxFjRg==" /></form><form class="btn btn-google-inverse btn-block btn-lg" method="post" action="https://oauth.qiita.com/auth/google?callback_action=login_or_signup&amp;realm=216&amp;redirect_to=https%3A%2F%2Fkaizen.qiita.com%2Ffiles%2Fa592ad21-d0da-dc59-74b6-81bb90db9649.png"><button type="submit"><i class="fa fa-google"></i>Log in with Google</button><input type="hidden" name="authenticity_token" value="OhObM6TUVbPCokX67D7USk18047ZX83IyI2rpGfh3+HTiszQGWCiZYeJASaIERhnLqU6PKyFyK+69cd1vwRqjA==" /></form><div class="sessionsLayout_guide">If you do not have a Qiita account, <a href="/signup?redirect_to=https%3A%2F%2Fkaizen.qiita.com%2Ffiles%2Fa592ad21-d0da-dc59-74b6-81bb90db9649.png" rel="nofollow">sign up</a> in 30 seconds.</div></div><div class="col-sm-6 sessionsLayoutFormColumn"><form class="loginSessionsForm" autocomplete="off" data-event_name="Login with password" action="/login" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="GIAkR+aCwp9Tr90wxmPeFg5nVumgJavQxr0X5muUce9VnBQ4gb6nPVSVCdOO1q1sqqALQ1CedS+bB9e6wMbOKw==" /><div class="form-group"><input type="text" name="identity" id="identity" placeholder="Username or Email" autofocus="autofocus" class="form-control" /></div><div class="form-group"><input type="password" name="password" id="password" placeholder="Password" class="form-control" /><div class="help-block"><a href="https://kaizen.qiita.com/sessions/forgot_password">Forgot Password?</a></div></div><div class="form-group"><input type="submit" name="commit" value="Log in to the Team" class="btn btn-primary btn-block btn-lg loginSessionsForm_submit" data-disable-with="Log in" /></div><input type="hidden" name="redirect_to" id="redirect_to" value="https://kaizen.qiita.com/files/a592ad21-d0da-dc59-74b6-81bb90db9649.png" /></form></div></div></div></div><div id="Footer-react-component-c5d47374-66a0-4e58-84f2-3f775873a01a"></div>
+      <script type="application/json" class="js-react-on-rails-component" data-component-name="Footer" data-dom-id="Footer-react-component-c5d47374-66a0-4e58-84f2-3f775873a01a">{"termUrl":"https://teams-share.qiita.com/shared_articles/70e3afefaa3aa930e121f7f7cbb5381f","privacyUrl":"https://qiita.com/privacy","apiDocUrl":"https://qiita.com/api/v2/docs"}</script>
+      
+</div></div><script src="https://cdn.qiita.com/assets/teams-ed40dccfe79387740310982df30a0fca.min.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+</script>
+  <script src="//cdn.optimizely.com/js/52738645.js" async></script>
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24675221-10']);
+    _gaq.push(['_setDomainName', 'qiita.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <script>
+    ga('create', 'UA-24675221-13', {
+      
+    });
+    ga('require', 'displayfeatures');
+    ga('set', 'forceSSL', true);
+    ga('send', 'pageview');
+  </script>
+</body></html>
